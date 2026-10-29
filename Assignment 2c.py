@@ -7,7 +7,7 @@ flight_log = [1000, 2500, 4200, 6000, 7800, 9500, 11000, 12500]
 print("Initial log:", flight_log)
 
 
-# Simulate the sensor receiving 2 new readings as the flight continues using .append() dot append important
+# Simulate the sensor receiving 2 new readings as the flight continues using .append() 
 flight_log.append(14000)
 print("After first append:", flight_log)
 
